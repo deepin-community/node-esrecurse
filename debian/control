@@ -1,0 +1,29 @@
+Source: node-esrecurse
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Section: javascript
+Testsuite: autopkgtest-pkg-nodejs
+Priority: optional
+Build-Depends:
+ debhelper-compat (= 13)
+ , chai <!nocheck>
+ , mocha <!nocheck>
+ , node-estraverse <!nocheck>
+ , dh-sequence-nodejs
+Standards-Version: 4.5.1
+Vcs-Browser: https://salsa.debian.org/js-team/node-esrecurse
+Vcs-Git: https://salsa.debian.org/js-team/node-esrecurse.git
+Homepage: https://github.com/estools/esrecurse
+Rules-Requires-Root: no
+
+Package: node-esrecurse
+Architecture: all
+Depends:
+ ${misc:Depends}
+ , node-estraverse
+ , node-object-assign
+ , nodejs
+Description: ECMAScript AST recursive visitor
+ Esrecurse is ECMAScript recursive traversing functionality.
+ .
+ Node.js is an event-based server-side JavaScript engine.

@@ -1,0 +1,35 @@
+node-esrecurse (4.3.0-1) unstable; urgency=medium
+
+  * Team upload
+  * Bump debhelper compatibility level to 13
+  * Declare compliance with policy 4.5.1
+  * Modernize debian/watch
+  * Use dh-sequence-nodejs
+  * New upstream version 4.3.0
+
+ -- Xavier Guimard <yadd@debian.org>  Wed, 23 Dec 2020 18:00:45 +0100
+
+node-esrecurse (4.2.1-1) unstable; urgency=medium
+
+  * Team upload
+  * Use pkg-js-tools auto install
+  * New upstream version 4.2.1
+  * Enable upstream test using mocha
+  * Bump debhelper compatibility level to 12
+  * Declare compliance with policy 4.5.0
+  * Add "Rules-Requires-Root: no"
+  * Change section to javascript
+  * Add debian/gbp.conf
+  * Add upstream/metadata
+  * Fix copyright
+  * Update VCS fields to salsa
+  * Fix permissions
+  * Set debian/nodejs/files
+
+ -- Xavier Guimard <yadd@debian.org>  Sat, 07 Mar 2020 08:58:53 +0100
+
+node-esrecurse (4.2.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #875616)
+
+ -- Pirate Praveen <praveen@debian.org>  Tue, 12 Sep 2017 22:15:47 +0530
