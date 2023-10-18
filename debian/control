@@ -10,7 +10,7 @@ Build-Depends:
  , mocha <!nocheck>
  , node-estraverse <!nocheck>
  , dh-sequence-nodejs
-Standards-Version: 4.5.1
+Standards-Version: 4.6.0
 Vcs-Browser: https://salsa.debian.org/js-team/node-esrecurse
 Vcs-Git: https://salsa.debian.org/js-team/node-esrecurse.git
 Homepage: https://github.com/estools/esrecurse
@@ -22,7 +22,6 @@ Depends:
  ${misc:Depends}
  , node-estraverse
  , node-object-assign
- , nodejs
 Description: ECMAScript AST recursive visitor
  Esrecurse is ECMAScript recursive traversing functionality.
  .

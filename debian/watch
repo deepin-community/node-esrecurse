@@ -1,5 +1,5 @@
 version=4
 opts=\
 dversionmangle=auto,\
-filenamemangle=s/.*\/v?([\d\.-]+)\.tar\.gz/node-esrecurse-$1.tar.gz/ \
- https://github.com/estools/esrecurse/tags .*/archive/v?([\d\.]+).tar.gz
+filenamemangle=s/.*?(\d[\d\.-]*@ARCHIVE_EXT@)/node-esrecurse-$1/ \
+ https://github.com/estools/esrecurse/tags .*/archive/.*/v?([\d\.]+).tar.gz
